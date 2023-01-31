@@ -1,10 +1,12 @@
-/** @jsxImportSource @emotion/react */
-
 import React from 'react';
-import { css } from '@emotion/react';
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+  color: red;
+`;
 
 const Home = () => {
-  return <div css={css({ color: 'red' })}>Home</div>;
+  return <StyledDiv>adsf</StyledDiv>;
 };
 
 export default Home;

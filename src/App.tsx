@@ -1,12 +1,15 @@
 import React from 'react';
 import Home from 'pages/Home';
-import Nav from 'components/Nav';
+import ResponsiveLayout from 'layouts/responsive.layout';
+import GlobalStyles from 'styles/GlobalStyles';
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <Home />
+      <GlobalStyles />
+      <ResponsiveLayout>
+        <Home />
+      </ResponsiveLayout>
     </>
   );
 };
